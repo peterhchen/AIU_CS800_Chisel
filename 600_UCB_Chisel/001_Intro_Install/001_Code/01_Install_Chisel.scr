@@ -1,0 +1,12 @@
+# 1. We clone the remote chisel to local drive.
+git clone https://github.com/ucb-bar/chisel-tutorial.git
+# Change to chisel-tutorial directory:
+cd chisel-tutorial
+# 2. We downloads commits, files, and refs from a remote repository into your local repo.
+# In Git, "origin" is a shorthand name for the remote repository 
+# that a project was originally cloned  from. 
+git fetch origin
+# 3. The git checkout command lets you navigate between the branches created by git branch. 
+# Checking out a branch updates the files in the working directory to match the version 
+# stored in that branch, and it tells Git to record all new commits on that branch.
+git checkout release
