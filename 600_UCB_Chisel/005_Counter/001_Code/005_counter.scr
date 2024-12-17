@@ -1,0 +1,2 @@
+# > cd chisel-tutorial
+source ./run-problem.sh Counter
