@@ -1,0 +1,398 @@
+peter@peter-Nitro-AN515-55:~/AIU/AIU_CS800_Chisel/600_UCB_Chisel/011_Run_All_Solutions/chisel-tutorial-release$ ./010_Run_All_Problem.scr 
+[info] Loading project definition from /home/peter/AIU/AIU_CS800_Chisel/600_UCB_Chisel/011_Run_All_Solutions/chisel-tutorial-release/project
+[info] Loading settings for project chisel-tutorial-release from build.sbt ...
+[info] Set current project to chisel-tutorial (in build file:/home/peter/AIU/AIU_CS800_Chisel/600_UCB_Chisel/011_Run_All_Solutions/chisel-tutorial-release/)
+[warn] Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+[info] running problems.Launcher all
+Starting tutorial Mux4
+[info] [0.003] Elaborating design...
+[info] [0.693] Done elaborating.
+Computed transform order in: 206.6 ms
+Total FIRRTL Compile Time: 466.0 ms
+file loaded in 0.053943138 seconds, 9 symbols, 2 statements
+[info] [0.001] SEED 1734672704578
+[info] [0.006] EXPECT AT 1   io_out got 1 expected 0 FAIL
+[info] [0.006] EXPECT AT 2   io_out got 1 expected 0 FAIL
+[info] [0.006] EXPECT AT 3   io_out got 1 expected 0 FAIL
+[info] [0.007] EXPECT AT 4   io_out got 1 expected 0 FAIL
+[info] [0.007] EXPECT AT 5   io_out got 1 expected 0 FAIL
+[info] [0.007] EXPECT AT 6   io_out got 1 expected 0 FAIL
+[info] [0.008] EXPECT AT 7   io_out got 1 expected 0 FAIL
+[info] [0.008] EXPECT AT 8   io_out got 1 expected 0 FAIL
+[info] [0.012] EXPECT AT 17   io_out got 1 expected 0 FAIL
+[info] [0.012] EXPECT AT 18   io_out got 1 expected 0 FAIL
+[info] [0.013] EXPECT AT 21   io_out got 1 expected 0 FAIL
+[info] [0.013] EXPECT AT 22   io_out got 1 expected 0 FAIL
+[info] [0.014] EXPECT AT 25   io_out got 1 expected 0 FAIL
+[info] [0.014] EXPECT AT 26   io_out got 1 expected 0 FAIL
+[info] [0.015] EXPECT AT 29   io_out got 1 expected 0 FAIL
+[info] [0.015] EXPECT AT 30   io_out got 1 expected 0 FAIL
+[info] [0.016] EXPECT AT 33   io_out got 1 expected 0 FAIL
+[info] [0.017] EXPECT AT 34   io_out got 1 expected 0 FAIL
+[info] [0.017] EXPECT AT 35   io_out got 1 expected 0 FAIL
+[info] [0.018] EXPECT AT 36   io_out got 1 expected 0 FAIL
+[info] [0.019] EXPECT AT 41   io_out got 1 expected 0 FAIL
+[info] [0.019] EXPECT AT 42   io_out got 1 expected 0 FAIL
+[info] [0.020] EXPECT AT 43   io_out got 1 expected 0 FAIL
+[info] [0.020] EXPECT AT 44   io_out got 1 expected 0 FAIL
+[info] [0.021] EXPECT AT 49   io_out got 1 expected 0 FAIL
+[info] [0.021] EXPECT AT 51   io_out got 1 expected 0 FAIL
+[info] [0.022] EXPECT AT 53   io_out got 1 expected 0 FAIL
+[info] [0.022] EXPECT AT 55   io_out got 1 expected 0 FAIL
+[info] [0.023] EXPECT AT 57   io_out got 1 expected 0 FAIL
+[info] [0.023] EXPECT AT 59   io_out got 1 expected 0 FAIL
+[info] [0.023] EXPECT AT 61   io_out got 1 expected 0 FAIL
+[info] [0.024] EXPECT AT 63   io_out got 1 expected 0 FAIL
+test Mux4 Success: 32 tests passed in 69 cycles in 0.036169 seconds 1907.71 Hz
+[info] [0.025] RAN 64 CYCLES FAILED FIRST AT CYCLE 1
+Starting tutorial Accumulator
+[info] [0.000] Elaborating design...
+[info] [0.007] Done elaborating.
+Computed transform order in: 157.6 ms
+Total FIRRTL Compile Time: 58.5 ms
+file loaded in 5.31733E-4 seconds, 5 symbols, 2 statements
+[info] [0.000] SEED 1734672704578
+[info] [0.001] EXPECT AT 1   io_out got 0 expected 1 FAIL
+[info] [0.001] EXPECT AT 2   io_out got 0 expected 1 FAIL
+[info] [0.001] EXPECT AT 3   io_out got 0 expected 2 FAIL
+[info] [0.001] EXPECT AT 4   io_out got 0 expected 2 FAIL
+[info] [0.002] EXPECT AT 5   io_out got 0 expected 3 FAIL
+[info] [0.002] EXPECT AT 6   io_out got 0 expected 4 FAIL
+[info] [0.002] EXPECT AT 7   io_out got 0 expected 4 FAIL
+[info] [0.002] EXPECT AT 8   io_out got 0 expected 4 FAIL
+[info] [0.002] EXPECT AT 9   io_out got 0 expected 5 FAIL
+[info] [0.002] EXPECT AT 10   io_out got 0 expected 5 FAIL
+[info] [0.002] EXPECT AT 11   io_out got 0 expected 6 FAIL
+[info] [0.003] EXPECT AT 12   io_out got 0 expected 6 FAIL
+[info] [0.003] EXPECT AT 13   io_out got 0 expected 6 FAIL
+[info] [0.003] EXPECT AT 14   io_out got 0 expected 7 FAIL
+[info] [0.003] EXPECT AT 15   io_out got 0 expected 8 FAIL
+[info] [0.003] EXPECT AT 16   io_out got 0 expected 9 FAIL
+test Accumulator Success: 0 tests passed in 21 cycles in 0.003818 seconds 5499.61 Hz
+[info] [0.004] RAN 16 CYCLES FAILED FIRST AT CYCLE 1
+Starting tutorial DynamicMemorySearch
+[info] [0.000] Elaborating design...
+[info] [0.014] Done elaborating.
+Computed transform order in: 96.6 ms
+Total FIRRTL Compile Time: 89.6 ms
+file loaded in 0.014829279 seconds, 21 symbols, 15 statements
+[info] [0.000] SEED 1734672704578
+java.lang.AssertionError: assertion failed: LOOKING FOR 4 FOUND 7
+	at scala.Predef$.assert(Predef.scala:223)
+	at problems.DynamicMemorySearchTests.$anonfun$new$2(DynamicMemorySearchTests.scala:39)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:158)
+	at problems.DynamicMemorySearchTests.<init>(DynamicMemorySearchTests.scala:17)
+	at problems.Launcher$.$anonfun$tests$30(Launcher.scala:57)
+	at chisel3.iotesters.Driver$.$anonfun$execute$4(Driver.scala:68)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:23)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)
+	at chisel3.iotesters.Driver$.$anonfun$execute$2(Driver.scala:67)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:23)
+	at logger.Logger$.$anonfun$makeScope$2(Logger.scala:168)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)
+	at logger.Logger$.makeScope(Logger.scala:166)
+	at logger.Logger$.makeScope(Logger.scala:127)
+	at chisel3.iotesters.Driver$.$anonfun$execute$1(Driver.scala:38)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:23)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)
+	at chisel3.iotesters.Driver$.execute(Driver.scala:38)
+	at problems.Launcher$.$anonfun$tests$28(Launcher.scala:57)
+	at problems.Launcher$.$anonfun$tests$28$adapted(Launcher.scala:55)
+	at utils.TutorialRunner$.$anonfun$apply$3(TutorialRunner.scala:56)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1429)
+	at scala.collection.MapLike$DefaultKeySet.foreach(MapLike.scala:181)
+	at utils.TutorialRunner$.apply(TutorialRunner.scala:47)
+	at problems.Launcher$.main(Launcher.scala:104)
+	at problems.Launcher.main(Launcher.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sbt.Run.invokeMain(Run.scala:115)
+	at sbt.Run.execute$1(Run.scala:79)
+	at sbt.Run.$anonfun$runWithLoader$3(Run.scala:84)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at sbt.Run.directExecute$1(Run.scala:84)
+	at sbt.Run.runWithLoader(Run.scala:93)
+	at sbt.Defaults$.$anonfun$bgRunMainTask$7(Defaults.scala:1458)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:360)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Starting tutorial MaxN
+[info] [0.000] Elaborating design...
+[info] [0.019] Done elaborating.
+Computed transform order in: 128.7 ms
+Total FIRRTL Compile Time: 67.7 ms
+file loaded in 0.003155394 seconds, 25 symbols, 15 statements
+[info] [0.000] SEED 1734672704578
+[info] [0.001] EXPECT AT 1   io_out got 0 expected 1 FAIL
+[info] [0.001] EXPECT AT 2   io_out got 0 expected 1 FAIL
+[info] [0.002] EXPECT AT 3   io_out got 0 expected 1 FAIL
+[info] [0.002] EXPECT AT 4   io_out got 0 expected 1 FAIL
+[info] [0.002] EXPECT AT 5   io_out got 0 expected 1 FAIL
+[info] [0.002] EXPECT AT 6   io_out got 0 expected 1 FAIL
+[info] [0.003] EXPECT AT 7   io_out got 0 expected 1 FAIL
+[info] [0.003] EXPECT AT 8   io_out got 0 expected 1 FAIL
+[info] [0.003] EXPECT AT 9   io_out got 0 expected 1 FAIL
+[info] [0.003] EXPECT AT 10   io_out got 0 expected 1 FAIL
+test MaxN Success: 0 tests passed in 15 cycles in 0.003934 seconds 3813.15 Hz
+[info] [0.003] RAN 10 CYCLES FAILED FIRST AT CYCLE 1
+Starting tutorial VecShiftRegisterSimple
+[info] [0.000] Elaborating design...
+[info] [0.005] Done elaborating.
+Computed transform order in: 87.3 ms
+Total FIRRTL Compile Time: 47.2 ms
+file loaded in 5.04341E-4 seconds, 5 symbols, 2 statements
+[info] [0.000] SEED 1734672704578
+[info] [0.001] EXPECT AT 4   io_out got 0 expected 156 FAIL
+[info] [0.001] EXPECT AT 5   io_out got 0 expected 69 FAIL
+[info] [0.002] EXPECT AT 6   io_out got 0 expected 165 FAIL
+[info] [0.002] EXPECT AT 7   io_out got 0 expected 57 FAIL
+[info] [0.002] EXPECT AT 8   io_out got 0 expected 216 FAIL
+[info] [0.002] EXPECT AT 9   io_out got 0 expected 252 FAIL
+[info] [0.002] EXPECT AT 10   io_out got 0 expected 58 FAIL
+[info] [0.002] EXPECT AT 11   io_out got 0 expected 116 FAIL
+[info] [0.002] EXPECT AT 12   io_out got 0 expected 162 FAIL
+[info] [0.002] EXPECT AT 13   io_out got 0 expected 4 FAIL
+[info] [0.003] EXPECT AT 14   io_out got 0 expected 211 FAIL
+[info] [0.003] EXPECT AT 15   io_out got 0 expected 84 FAIL
+[info] [0.003] EXPECT AT 16   io_out got 0 expected 116 FAIL
+test VecShiftRegisterSimple Success: 3 tests passed in 21 cycles in 0.003215 seconds 6532.33 Hz
+[info] [0.003] RAN 16 CYCLES FAILED FIRST AT CYCLE 4
+Starting tutorial Max2
+[info] [0.000] Elaborating design...
+[info] [0.003] Done elaborating.
+Computed transform order in: 107.8 ms
+Total FIRRTL Compile Time: 39.5 ms
+file loaded in 8.06466E-4 seconds, 7 symbols, 3 statements
+[info] [0.000] SEED 1734672704578
+[info] [0.001] EXPECT AT 1   io_out got 0 expected 1 FAIL
+[info] [0.001] EXPECT AT 2   io_out got 0 expected 1 FAIL
+[info] [0.001] EXPECT AT 3   io_out got 0 expected 1 FAIL
+[info] [0.001] EXPECT AT 4   io_out got 0 expected 1 FAIL
+[info] [0.001] EXPECT AT 5   io_out got 0 expected 1 FAIL
+[info] [0.002] EXPECT AT 6   io_out got 0 expected 1 FAIL
+[info] [0.002] EXPECT AT 7   io_out got 0 expected 1 FAIL
+[info] [0.002] EXPECT AT 8   io_out got 0 expected 1 FAIL
+[info] [0.002] EXPECT AT 9   io_out got 0 expected 1 FAIL
+[info] [0.002] EXPECT AT 10   io_out got 0 expected 1 FAIL
+test Max2 Success: 0 tests passed in 15 cycles in 0.002701 seconds 5553.40 Hz
+[info] [0.002] RAN 10 CYCLES FAILED FIRST AT CYCLE 1
+Starting tutorial VendingMachineSwitch
+[info] [0.000] Elaborating design...
+[info] [0.007] Done elaborating.
+Computed transform order in: 104.5 ms
+Total FIRRTL Compile Time: 43.1 ms
+file loaded in 9.25925E-4 seconds, 12 symbols, 8 statements
+[info] [0.000] SEED 1734672704578
+[info] [0.001] EXPECT AT 4   io_valid got 0 expected 1 FAIL
+[info] [0.002] EXPECT AT 10   io_valid got 0 expected 1 FAIL
+[info] [0.002] EXPECT AT 16   io_valid got 0 expected 1 FAIL
+test VendingMachineSwitch Success: 17 tests passed in 25 cycles in 0.002674 seconds 9350.60 Hz
+[info] [0.003] RAN 20 CYCLES FAILED FIRST AT CYCLE 4
+Starting tutorial Mul
+[info] [0.000] Elaborating design...
+[info] [0.003] Done elaborating.
+Computed transform order in: 86.0 ms
+firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module Mul]  Reference io is not fully initialized.
+   : io.z <= VOID
+Starting tutorial LFSR16
+[info] [0.000] Elaborating design...
+[info] [0.003] Done elaborating.
+Computed transform order in: 87.3 ms
+Total FIRRTL Compile Time: 35.1 ms
+file loaded in 4.41472E-4 seconds, 5 symbols, 2 statements
+[info] [0.000] SEED 1734672704578
+[info] [0.001] EXPECT AT 1   io_out got 0 expected 32768 FAIL
+[info] [0.001] EXPECT AT 2   io_out got 0 expected 32768 FAIL
+[info] [0.001] EXPECT AT 3   io_out got 0 expected 16384 FAIL
+[info] [0.001] EXPECT AT 4   io_out got 0 expected 16384 FAIL
+[info] [0.001] EXPECT AT 5   io_out got 0 expected 8192 FAIL
+[info] [0.001] EXPECT AT 6   io_out got 0 expected 4096 FAIL
+[info] [0.001] EXPECT AT 7   io_out got 0 expected 4096 FAIL
+[info] [0.001] EXPECT AT 8   io_out got 0 expected 4096 FAIL
+[info] [0.002] EXPECT AT 9   io_out got 0 expected 2048 FAIL
+[info] [0.002] EXPECT AT 10   io_out got 0 expected 2048 FAIL
+[info] [0.002] EXPECT AT 11   io_out got 0 expected 1024 FAIL
+[info] [0.002] EXPECT AT 12   io_out got 0 expected 1024 FAIL
+[info] [0.002] EXPECT AT 13   io_out got 0 expected 1024 FAIL
+[info] [0.002] EXPECT AT 14   io_out got 0 expected 512 FAIL
+[info] [0.002] EXPECT AT 15   io_out got 0 expected 256 FAIL
+[info] [0.003] EXPECT AT 16   io_out got 0 expected 128 FAIL
+test LFSR16 Success: 0 tests passed in 21 cycles in 0.002946 seconds 7128.98 Hz
+[info] [0.003] RAN 16 CYCLES FAILED FIRST AT CYCLE 1
+Starting tutorial VecShiftRegister
+[info] [0.000] Elaborating design...
+[info] [0.004] Done elaborating.
+Computed transform order in: 119.8 ms
+Total FIRRTL Compile Time: 38.5 ms
+file loaded in 4.69593E-4 seconds, 10 symbols, 2 statements
+[info] [0.000] SEED 1734672704578
+[info] [0.002] EXPECT AT 2   io_out got 0 expected 3 FAIL
+[info] [0.003] EXPECT AT 3   io_out got 0 expected 10 FAIL
+[info] [0.003] EXPECT AT 4   io_out got 0 expected 4 FAIL
+[info] [0.003] EXPECT AT 5   io_out got 0 expected 4 FAIL
+[info] [0.003] EXPECT AT 6   io_out got 0 expected 9 FAIL
+[info] [0.003] EXPECT AT 7   io_out got 0 expected 9 FAIL
+[info] [0.003] EXPECT AT 8   io_out got 0 expected 9 FAIL
+[info] [0.004] EXPECT AT 9   io_out got 0 expected 5 FAIL
+[info] [0.004] EXPECT AT 10   io_out got 0 expected 5 FAIL
+[info] [0.004] EXPECT AT 11   io_out got 0 expected 10 FAIL
+[info] [0.004] EXPECT AT 12   io_out got 0 expected 10 FAIL
+[info] [0.004] EXPECT AT 13   io_out got 0 expected 10 FAIL
+[info] [0.004] EXPECT AT 14   io_out got 0 expected 10 FAIL
+[info] [0.005] EXPECT AT 15   io_out got 0 expected 12 FAIL
+[info] [0.005] EXPECT AT 16   io_out got 0 expected 1 FAIL
+[info] [0.005] EXPECT AT 17   io_out got 0 expected 3 FAIL
+test VecShiftRegister Success: 0 tests passed in 22 cycles in 0.005004 seconds 4396.29 Hz
+[info] [0.005] RAN 17 CYCLES FAILED FIRST AT CYCLE 2
+Starting tutorial RealGCD
+[info] [0.000] Elaborating design...
+[info] [0.010] Done elaborating.
+Computed transform order in: 130.6 ms
+firrtl.passes.PassExceptions: 
+firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module RealGCD]  Reference io is not fully initialized.
+   : io.out.bits <= VOID
+firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module RealGCD]  Reference io is not fully initialized.
+   : io.out.valid <= VOID
+firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module RealGCD]  Reference io is not fully initialized.
+   : io.in.ready <= VOID
+firrtl.passes.PassException: 3 errors detected!
+Starting tutorial VendingMachine
+[info] [0.000] Elaborating design...
+[info] [0.004] Done elaborating.
+Computed transform order in: 104.6 ms
+Total FIRRTL Compile Time: 43.9 ms
+file loaded in 7.9771E-4 seconds, 8 symbols, 4 statements
+[info] [0.000] SEED 1734672704578
+[info] [0.001] EXPECT AT 4   io_valid got 0 expected 1 FAIL
+[info] [0.001] EXPECT AT 10   io_valid got 0 expected 1 FAIL
+[info] [0.002] EXPECT AT 16   io_valid got 0 expected 1 FAIL
+test VendingMachine Success: 17 tests passed in 25 cycles in 0.002990 seconds 8362.36 Hz
+[info] [0.002] RAN 20 CYCLES FAILED FIRST AT CYCLE 4
+Starting tutorial Mux2
+[info] [0.000] Elaborating design...
+[info] [0.002] Done elaborating.
+Computed transform order in: 102.7 ms
+Total FIRRTL Compile Time: 43.3 ms
+file loaded in 9.00219E-4 seconds, 10 symbols, 5 statements
+[info] [0.000] SEED 1734672704578
+test Mux2 Success: 8 tests passed in 13 cycles in 0.003030 seconds 4290.41 Hz
+[info] [0.003] RAN 8 CYCLES PASSED
+Starting tutorial Memo
+[info] [0.000] Elaborating design...
+[info] [0.005] Done elaborating.
+Computed transform order in: 98.6 ms
+firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module Memo]  Reference io is not fully initialized.
+   : io.rdData <= VOID
+Starting tutorial VecShiftRegisterParam
+[info] [0.000] Elaborating design...
+[info] [0.003] Done elaborating.
+Computed transform order in: 112.5 ms
+Total FIRRTL Compile Time: 32.9 ms
+file loaded in 0.001044128 seconds, 5 symbols, 2 statements
+[info] [0.000] SEED 1734672704578
+[info] [0.001] EXPECT AT 8   io_out got 0 expected 9 FAIL
+[info] [0.002] EXPECT AT 9   io_out got 0 expected 4 FAIL
+[info] [0.002] EXPECT AT 10   io_out got 0 expected 10 FAIL
+[info] [0.002] EXPECT AT 11   io_out got 0 expected 3 FAIL
+[info] [0.002] EXPECT AT 12   io_out got 0 expected 13 FAIL
+[info] [0.002] EXPECT AT 13   io_out got 0 expected 15 FAIL
+[info] [0.002] EXPECT AT 14   io_out got 0 expected 3 FAIL
+[info] [0.002] EXPECT AT 15   io_out got 0 expected 7 FAIL
+[info] [0.003] EXPECT AT 16   io_out got 0 expected 10 FAIL
+test VecShiftRegisterParam Success: 7 tests passed in 21 cycles in 0.003560 seconds 5898.23 Hz
+[info] [0.003] RAN 16 CYCLES FAILED FIRST AT CYCLE 8
+Starting tutorial Counter
+[info] [0.000] Elaborating design...
+[info] [0.003] Done elaborating.
+Computed transform order in: 85.4 ms
+Total FIRRTL Compile Time: 38.6 ms
+file loaded in 9.41624E-4 seconds, 10 symbols, 6 statements
+[info] [0.000] SEED 1734672704578
+[info] [0.001] EXPECT AT 6   io_tot got 6 expected 4 FAIL
+[info] [0.001] EXPECT AT 8   io_tot got 8 expected 22 FAIL
+[info] [0.001] EXPECT AT 9   io_tot got 9 expected 22 FAIL
+[info] [0.001] EXPECT AT 10   io_tot got 10 expected 22 FAIL
+[info] [0.001] EXPECT AT 11   io_tot got 11 expected 27 FAIL
+[info] [0.002] EXPECT AT 12   io_tot got 12 expected 27 FAIL
+[info] [0.002] EXPECT AT 13   io_tot got 13 expected 37 FAIL
+[info] [0.002] EXPECT AT 14   io_tot got 14 expected 38 FAIL
+[info] [0.002] EXPECT AT 15   io_tot got 15 expected 38 FAIL
+test Counter Success: 1 tests passed in 20 cycles in 0.002118 seconds 9444.16 Hz
+[info] [0.002] RAN 15 CYCLES FAILED FIRST AT CYCLE 6
+Starting tutorial SingleEvenFilter
+[info] [0.000] Elaborating design...
+[info] [0.009] Done elaborating.
+Computed transform order in: 88.3 ms
+Total FIRRTL Compile Time: 37.5 ms
+file loaded in 5.33173E-4 seconds, 7 symbols, 3 statements
+[info] [0.000] SEED 1734672704578
+[info] [0.001] EXPECT AT 1   io_out_valid got 1 expected 0 FAIL
+[info] [0.001] EXPECT AT 2   io_out_valid got 1 expected 0 FAIL
+[info] [0.001] EXPECT AT 3   io_out_valid got 1 expected 0 FAIL
+[info] [0.001] EXPECT AT 4   io_out_valid got 1 expected 0 FAIL
+[info] [0.001] EXPECT AT 5   io_out_valid got 1 expected 0 FAIL
+[info] [0.001] EXPECT AT 6   io_out_valid got 1 expected 0 FAIL
+[info] [0.002] EXPECT AT 7   io_out_valid got 1 expected 0 FAIL
+[info] [0.002] EXPECT AT 8   io_out_valid got 1 expected 0 FAIL
+[info] [0.002] EXPECT AT 9   io_out_valid got 1 expected 0 FAIL
+[info] [0.002] EXPECT AT 10   io_out_valid got 1 expected 0 FAIL
+test SingleEvenFilter Success: 10 tests passed in 15 cycles in 0.002783 seconds 5390.44 Hz
+[info] [0.002] RAN 10 CYCLES FAILED FIRST AT CYCLE 1
+Starting tutorial Adder
+[info] [0.000] Elaborating design...
+[info] [0.003] Done elaborating.
+Computed transform order in: 108.2 ms
+Total FIRRTL Compile Time: 40.5 ms
+file loaded in 0.001217077 seconds, 6 symbols, 2 statements
+[info] [0.000] SEED 1734672704578
+[info] [0.001] EXPECT AT 1   io_out got 0 expected 225 FAIL
+[info] [0.002] EXPECT AT 2   io_out got 0 expected 222 FAIL
+[info] [0.002] EXPECT AT 3   io_out got 0 expected 212 FAIL
+[info] [0.002] EXPECT AT 4   io_out got 0 expected 174 FAIL
+[info] [0.002] EXPECT AT 5   io_out got 0 expected 166 FAIL
+[info] [0.002] EXPECT AT 6   io_out got 0 expected 39 FAIL
+[info] [0.002] EXPECT AT 7   io_out got 0 expected 32 FAIL
+[info] [0.002] EXPECT AT 8   io_out got 0 expected 52 FAIL
+[info] [0.002] EXPECT AT 9   io_out got 0 expected 181 FAIL
+[info] [0.002] EXPECT AT 10   io_out got 0 expected 230 FAIL
+test Adder Success: 0 tests passed in 15 cycles in 0.002970 seconds 5050.40 Hz
+[info] [0.002] RAN 10 CYCLES FAILED FIRST AT CYCLE 1
+Tutorials passing: 1
+================================================================================
+Errors: 17: in the following tutorials
+Tutorial Mux4: test error occurred
+Tutorial Accumulator: test error occurred
+Tutorial DynamicMemorySearch: throwable assertion failed: LOOKING FOR 4 FOUND 7
+Tutorial MaxN: test error occurred
+Tutorial VecShiftRegisterSimple: test error occurred
+Tutorial Max2: test error occurred
+Tutorial VendingMachineSwitch: test error occurred
+Tutorial Mul: exception  : [module Mul]  Reference io is not fully initialized.
+   : io.z <= VOID
+Tutorial LFSR16: test error occurred
+Tutorial VecShiftRegister: test error occurred
+Tutorial RealGCD: exception 
+firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module RealGCD]  Reference io is not fully initialized.
+   : io.out.bits <= VOID
+firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module RealGCD]  Reference io is not fully initialized.
+   : io.out.valid <= VOID
+firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module RealGCD]  Reference io is not fully initialized.
+   : io.in.ready <= VOID
+firrtl.passes.PassException: 3 errors detected!
+Tutorial VendingMachine: test error occurred
+Tutorial Memo: exception  : [module Memo]  Reference io is not fully initialized.
+   : io.rdData <= VOID
+Tutorial VecShiftRegisterParam: test error occurred
+Tutorial Counter: test error occurred
+Tutorial SingleEvenFilter: test error occurred
+Tutorial Adder: test error occurred
+================================================================================
+2024-12-19 21:31:49,818 shutdown-hooks-run-all ERROR No Log4j 2 configuration file found. Using default configuration (logging only errors to the console), or user programmatically provided configurations. Set system property 'log4j2.debug' to show Log4j 2 internal initialization logging. See https://logging.apache.org/log4j/2.x/manual/configuration.html for instructions on how to configure Log4j 2
