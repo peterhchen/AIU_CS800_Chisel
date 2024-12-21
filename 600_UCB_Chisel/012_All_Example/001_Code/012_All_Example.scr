@@ -1,0 +1,2 @@
+# > cd chisel-tutorial
+source ./run-examples.sh all
