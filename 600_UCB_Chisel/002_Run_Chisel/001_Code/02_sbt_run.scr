@@ -1,7 +1,0 @@
-# 1. hange to chisel-tutorial directory:
-cd chisel-tutorial
-# 2. make sure the build.sbt in the directory
-ls   # We should see build.sbt
-# 3. run Hello.scala with main() entry.
-# Hello.scala is under /src/main/scala/hello
-sbr run
