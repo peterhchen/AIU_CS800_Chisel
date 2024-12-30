@@ -1,0 +1,2 @@
+#./run-examples.sh GCD
+./run-examples.sh GCD --backend-name verilator
