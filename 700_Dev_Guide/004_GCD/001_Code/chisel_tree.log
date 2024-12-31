@@ -1,0 +1,160 @@
+chisel-tutorial/
+├── build.sbt
+├── doc
+│   ├── html.cfg
+│   ├── Makefile
+│   ├── style
+│   │   ├── scala.tex
+│   │   └── talk.tex
+│   └── tutorial
+│       ├── figs
+│       │   ├── condupdates.pdf
+│       │   ├── cpu.png
+│       │   └── DUT.pdf
+│       ├── retreat-talk.tex
+│       ├── tutorial-2.tex
+│       └── tutorial.tex
+├── LICENSE.txt
+├── project
+│   └── build.properties
+├── README.md
+├── run-examples.sh
+├── run-problem.sh
+├── run-solution.sh
+└── src
+    ├── main
+    │   └── scala
+    │       ├── examples
+    │       │   ├── Adder4.scala
+    │       │   ├── Adder.scala
+    │       │   ├── ByteSelector.scala
+    │       │   ├── Combinational.scala
+    │       │   ├── Darken.scala
+    │       │   ├── EnableShiftRegister.scala
+    │       │   ├── FullAdder.scala
+    │       │   ├── Functionality.scala
+    │       │   ├── GCD.scala
+    │       │   ├── HiLoMultiplier.scala
+    │       │   ├── Life.scala
+    │       │   ├── LogShifter.scala
+    │       │   ├── Parity.scala
+    │       │   ├── ResetShiftRegister.scala
+    │       │   ├── Risc.scala
+    │       │   ├── Router.scala
+    │       │   ├── ShiftRegister.scala
+    │       │   ├── SimpleALU.scala
+    │       │   ├── Stack.scala
+    │       │   ├── Tbl.scala
+    │       │   └── VecSearch.scala
+    │       ├── hello
+    │       │   └── Hello.scala
+    │       ├── problems
+    │       │   ├── Accumulator.scala
+    │       │   ├── Adder.scala
+    │       │   ├── Counter.scala
+    │       │   ├── DynamicMemorySearch.scala
+    │       │   ├── LFSR16.scala
+    │       │   ├── Max2.scala
+    │       │   ├── MaxN.scala
+    │       │   ├── Memo.scala
+    │       │   ├── Mul.scala
+    │       │   ├── Mux4.scala
+    │       │   ├── RealGCD.scala
+    │       │   ├── SingleEvenFilter.scala
+    │       │   ├── VecShiftRegisterParam.scala
+    │       │   ├── VecShiftRegister.scala
+    │       │   ├── VecShiftRegisterSimple.scala
+    │       │   ├── VendingMachine.scala
+    │       │   └── VendingMachineSwitch.scala
+    │       └── solutions
+    │           ├── Accumulator.scala
+    │           ├── Adder.scala
+    │           ├── Counter.scala
+    │           ├── DynamicMemorySearch.scala
+    │           ├── LFSR16.scala
+    │           ├── Max2.scala
+    │           ├── MaxN.scala
+    │           ├── Memo.scala
+    │           ├── Mul.scala
+    │           ├── Mux4.scala
+    │           ├── RealGCD.scala
+    │           ├── SingleEvenFilter.scala
+    │           ├── VecShiftRegisterParam.scala
+    │           ├── VecShiftRegister.scala
+    │           ├── VecShiftRegisterSimple.scala
+    │           ├── VendingMachine.scala
+    │           └── VendingMachineSwitch.scala
+    └── test
+        ├── resources
+        │   ├── in.im24
+        │   └── in.wav
+        └── scala
+            ├── examples
+            │   ├── Adder4Tests.scala
+            │   ├── AdderTests.scala
+            │   ├── ByteSelectorTests.scala
+            │   ├── CombinationalTests.scala
+            │   ├── DarkenTests.scala
+            │   ├── EnableShiftRegisterTests.scala
+            │   ├── FullAdderTests.scala
+            │   ├── FunctionalityTests.scala
+            │   ├── GCDTests.scala
+            │   ├── HiLoMultiplierTests.scala
+            │   ├── Image.scala
+            │   ├── Launcher.scala
+            │   ├── LifeTests.scala
+            │   ├── LogShifterTests.scala
+            │   ├── ParityTests.scala
+            │   ├── ResetShiftRegisterTests.scala
+            │   ├── RiscTests.scala
+            │   ├── RouterTests.scala
+            │   ├── ShiftRegisterTests.scala
+            │   ├── SimpleALUTests.scala
+            │   ├── Sound.scala
+            │   ├── StackTests.scala
+            │   ├── TblTests.scala
+            │   └── VecSearchTests.scala
+            ├── problems
+            │   ├── AccumulatorTest.scala
+            │   ├── AdderTests.scala
+            │   ├── CounterTest.scala
+            │   ├── DynamicMemorySearchTests.scala
+            │   ├── Launcher.scala
+            │   ├── LFSR16Tests.scala
+            │   ├── Max2Tests.scala
+            │   ├── MaxNTests.scala
+            │   ├── MemoTests.scala
+            │   ├── MulTests.scala
+            │   ├── Mux2Tests.scala
+            │   ├── Mux4Tests.scala
+            │   ├── RealGCDTests.scala
+            │   ├── SingleEvenFilterTests.scala
+            │   ├── VecShiftRegisterParamTests.scala
+            │   ├── VecShiftRegisterSimpleTests.scala
+            │   ├── VecShiftRegisterTests.scala
+            │   ├── VendingMachineSwitchTests.scala
+            │   └── VendingMachineTests.scala
+            ├── solutions
+            │   ├── AccumulatorTests.scala
+            │   ├── AdderTests.scala
+            │   ├── CounterTest.scala
+            │   ├── DynamicMemorySearchTests.scala
+            │   ├── Launcher.scala
+            │   ├── LFSR16Tests.scala
+            │   ├── Max2Tests.scala
+            │   ├── MaxNTests.scala
+            │   ├── MemoTests.scala
+            │   ├── MulTests.scala
+            │   ├── Mux2Tests.scala
+            │   ├── Mux4Tests.scala
+            │   ├── RealGCDTests.scala
+            │   ├── SingleEvenFilterTests.scala
+            │   ├── VecShiftRegisterParamTests.scala
+            │   ├── VecShiftRegisterSimpleTests.scala
+            │   ├── VecShiftRegisterTests.scala
+            │   ├── VendingMachineSwitchTests.scala
+            │   └── VendingMachineTest.scala
+            └── utils
+                └── TutorialRunner.scala
+
+19 directories, 138 files
