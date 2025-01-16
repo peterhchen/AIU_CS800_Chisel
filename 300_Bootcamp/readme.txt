@@ -10,6 +10,7 @@ Topics:
 6. Install Docker: Docker hub keep the working version for Chisel-bootcamp. It prevents tool chain compilation error due to dependencies .
 7. Install Jupyter Notebook: Jupyter provides the interpreter for code and document presentation.
 8. Install Scala: Chisel use Scala
-9. Install Graphviz for Scala Module viewer.
-10. Outline: chisel-bootcamp web site organization
-11. Why do we need chisel? Chisel use modern programming language Scala, write chisel generators instead of Verilog instance, better hardware design.
+9. Install Graphviz for Scala Module viewer
+10. Install scala inside the Jupyter notebook: install coursier, almond, use almond to scala into jupyter notebook. In jupyter notebook, select scala as the default interpreter.
+11. Outline: chisel-bootcamp web site organization
+12. Why do we need chisel? Chisel use modern programming language Scala, write chisel generators instead of Verilog instance, better hardware design.
