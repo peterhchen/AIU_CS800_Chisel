@@ -1,0 +1,3 @@
+# https://jupyter.org/install
+pip install notebook
+jupyter notebook
