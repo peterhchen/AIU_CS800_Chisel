@@ -1,6 +1,6 @@
 Chisel (Constructing Hardware in Scala Embedded Language) is a tool for digital hardware design.
-1. This Bootcamp shows how to use Chisel, a Berkeley hardware construction DSL written in Scala. 
-2. This Bootcamp uses Scala and Chisel for hardware generators.
+1. shows how to use Chisel, a Berkeley hardware construction DSL written in Scala. 
+2. Uses Scala and Chisel for hardware generators.
 Topics:
 1. Introduction: Why do we need Chisel (Constructing Hardware in Scala Language)? how to use Scala to write design/Test? How to use Chisel libraries?
 2. Prerequisites: Verilog/VHDL, FPGA, Digital Design, Scala Programming,
