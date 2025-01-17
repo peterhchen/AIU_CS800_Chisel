@@ -1,7 +1,0 @@
-# Install SBT (Scala Build Tool) on Ubuntu
-# https://stackoverflow.com/questions/13711395/install-sbt-on-ubuntu
-wget http://apt.typesafe.com/repo-deb-build-0002.deb
-sudo dpkg -i repo-deb-build-0002.deb
-sudo apt-get update
-sudo apt-get install sbt
-

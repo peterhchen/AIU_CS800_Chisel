@@ -1,4 +1,0 @@
-# Install Java 8 on Ubuntu
-# https://askubuntu.com/questions/931610/how-to-install-jdk8-on-ubuntu-16
-sudo apt-get install openjdk-8-jdk
-
