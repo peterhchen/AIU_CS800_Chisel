@@ -1,4 +1,4 @@
-We discuss how to count the add operations in a Chisel Module.
+We discuss how to traverse a FIRRTL Circuit and count the add operations in a Chisel Module.
 A FIRRTL Circuit contains a sequence of modules, a modules contains a sequence of port and statement, a statement contains other statement and expression, an expression contains other expressions.
 Topics:
 1. Setup: Jupyter notebook and select scala interpreter.
