@@ -5,4 +5,4 @@ Topics:
 3. Physical Design Optimization: PAT (Power, Area, Timing)
 4. Waterfall vs. Agile Design methodology
 5. Little’s Law: measure latency, throughput, and parallelism
-6. Memory Optimization: Banking, Bursty Averaging, Pipeline, Double Buffer,
+6. Memory Optimization: Banking, Bursty Averaging, Pipeline, and Double Buffer.
