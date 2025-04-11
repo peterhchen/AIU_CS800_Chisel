@@ -1,4 +1,4 @@
-Open Project Development
+Open Source Project Development
 Topics:
 1. Setup: jupyter notebook and run cells.
 2. CI (Continuous Integration)
